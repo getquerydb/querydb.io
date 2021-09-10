@@ -1,8 +1,8 @@
 const config = {
   siteMetadata: {
-    title: 'Pentafile',
-    description: 'Management File Easy',
-    siteUrl: 'https://www.pentafile.com/',
+    title: 'QueryDB',
+    description: 'Connect any data source and export to any format',
+    siteUrl: 'https://querydb.io/',
   },
   pathPrefix: '/',
   plugins: [

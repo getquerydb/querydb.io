@@ -41,7 +41,7 @@ class Header extends React.Component {
             </button>
             <Link className="navbar-brand" to="/">
               <img
-                src="/assets/images/elements/pentafile_logo.png"
+                src="/assets/images/elements/logo.png"
                 className="navbar-brand__img"
                 alt=""
               />

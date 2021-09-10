@@ -60,6 +60,7 @@ export default ({ children, title, description, location }) => (
       />
       <script src="https://www.gstatic.com/firebasejs/6.6.0/firebase-app.js"></script>
       <script src="https://www.gstatic.com/firebasejs/6.6.0/firebase-database.js"></script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-LYEEXFLCQP"></script>
       <script src="/assets/scripts/a.js" />
     </Helmet>
     <Header />
