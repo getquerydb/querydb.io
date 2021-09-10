@@ -2,7 +2,7 @@ const config = {
   siteMetadata: {
     title: 'QueryDB',
     description: 'Connect any data source and export to any format',
-    siteUrl: 'https://querydb.io/',
+    siteUrl: 'https://querydb.io',
   },
   pathPrefix: '/',
   plugins: [
