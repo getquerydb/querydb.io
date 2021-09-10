@@ -1,0 +1,9 @@
+- name: QueryDB
+  links:
+    - name: Home
+      url: /
+- name: Info
+  links:
+    - name: Contact
+      url: /contact/
+
