@@ -73,7 +73,7 @@ class Header extends React.Component {
                   data-track
                   data-track-location="header"
                   track-event="Clicked Get Started"
-                  to="https://querydb.netlify.app/"
+                  to="https://demo.querydb.io/"
                   className="btn btn-primary navbar-btn"
                 >
                   Demo

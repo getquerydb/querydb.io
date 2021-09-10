@@ -9,7 +9,7 @@ export default ({ children, title, description, location }) => (
   <div className="wrapper">
     <Helmet>
       <title>{title || 'QueryDB'}</title>
-      <meta name="google-site-verification" content="8uPiyuHlLHI0E_w1i_FUh3Ux0LdYE9A2lpF9LtsHA2w" />
+      <meta name="google-site-verification" content="R031SqiWeB6RqvdPdgeoD2k1ekxsoG5rwOmgIfvk_Ag" />
       <meta name="title" content={title} />
       <meta name="description" content={description} />
       <meta
