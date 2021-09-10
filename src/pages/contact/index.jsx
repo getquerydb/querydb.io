@@ -87,8 +87,8 @@ class ContactForm extends React.Component {
 
 const ContactPage = ({ location }) => (
   <Layout
-    title="Pentafile Contact, Envíanos tus consutlas para apoyarte"
-    description="Estamos para apoyudarte a desentralizar y gestionar de forma eficiente tus archivos"
+    title="QueryDB Contact"
+    description="Connect any data source and export to any format"
     location={location}
   >
     <section className="section">

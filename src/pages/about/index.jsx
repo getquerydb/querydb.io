@@ -5,40 +5,28 @@ import SectionGetStarted from 'components/SectionGetStarted'
 
 const ProductPage = ({ location }) => (
   <Layout
-    title="Pentafile Contact"
-    description="Pentafile es una forma inteligente para gestionar grandes cantidades de archivos en tu organización, configura y usa la mejor alternativa"
+    title="QueryDB About"
+    description="Connect any data source and export to any format"
     location={location}
   >
     <section className="section section--pt-lg">
       <div className="container">
         <div className="row">
           <div className="col-sm-5 col-sm-offset-2">
-            <img
-              src="/assets/images/elements/computing-on-a-chart.png"
-              width="30%"
-              className="visible-xs"
-            />
-            <h1>Pentafile es un servicio de SOTECH GROUP</h1>
+            <h1>QueryDB</h1>
             <p className="highlight-p">
-              Estamos aquí para desentralizar tus archivos y facilitarte el acceso.
+            Do you want to meet me?
             </p>
-
             <Link
               data-track
               data-track-location="about-hero"
-              track-event="Clicked How Pentafile Started"
-              to="http://www.sotech.com.pe"
+              track-event="Clicked How QueryDB Started"
+              to="https://reynaldoclaros.com"
               target="_blank"
               className="btn btn-secondary btn-lg m-t-25"
             >
-              Visitar la página →
+              Go to website →
             </Link>
-          </div>
-          <div className="col-sm-3 text-right hidden-xs">
-            <img
-              src="/assets/images/elements/computing-on-a-chart.png"
-              width="250px"
-            />
           </div>
         </div>
       </div>
