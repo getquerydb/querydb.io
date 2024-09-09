@@ -1,7 +1,7 @@
 {
-  "name": "pentafile-website",
+  "name": "querydb-website",
   "version": "1.0.0",
-  "description": "Pentafile Website",
+  "description": "QueryDB Website",
   "main": "n/a",
   "dependencies": {
     "bootstrap-sass": "^3.4.0",
@@ -90,14 +90,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/pentafile/ui/website.git"
+    "url": "git+https://github.com/getquerydb/querydb.io.git"
   },
   "author": "",
   "license": "Pentafile",
   "bugs": {
-    "url": "https://gitlab.com/pentafile/ui/website"
+    "url": "https://github.com/getquerydb/querydb.io"
   },
-  "homepage": "https://gitlab.com/pentafile/ui/website",
+  "homepage": "https://github.com/getquerydb/querydb.io",
   "optionalDependencies": {
     "fsevents": "^1.1.3"
   }

@@ -14,7 +14,7 @@ export default ({ children, title, description, location }) => (
       <meta name="description" content={description} />
       <meta
         name="keywords"
-        content="Easy Query Any Database and Export Any Format"
+        content="Easy Query Relational Database and Export in API REST"
       />
       <link rel="icon" href="/assets/images/favicon.ico" />
       <link

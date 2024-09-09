@@ -6,7 +6,7 @@ import SectionGetStarted from 'components/SectionGetStarted'
 const ProductPage = ({ location }) => (
   <Layout
     title="QueryDB About"
-    description="Connect any data source and export to any format"
+    description="Connect to Relational Database and export in API REST"
     location={location}
   >
     <section className="section section--pt-lg">

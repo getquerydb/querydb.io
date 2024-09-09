@@ -1,6 +1,5 @@
 import React from 'react'
 import Layout from 'components/Layout'
-import Link from 'components/Link'
 import SectionGetStarted from 'components/SectionGetStarted'
 
 class Homepage extends React.Component {
@@ -26,16 +25,16 @@ class Homepage extends React.Component {
     return (
       <Layout
         title="QueryDB"
-        description="Connect any data source and export to any format"
+        description="Connect to your database and export in REST API"
         location={this.props.location}
       >
         <section className="section section--hero">
           <div className="container">
             <div className="row">
               <div className="col-md-12">
-                <h1 className="mb-xs text-center">Connect any data sources and export to any formats</h1>
+                <h1 className="mb-xs text-center">Connect to your database and export in REST API</h1>
                 <h3 className="font-light text-center">
-                Break down the barriers to accessing your data in the digital age.
+                  Break down the barriers to accessing your data in the digital age.
                 </h3>
               </div>
             </div>
@@ -45,14 +44,14 @@ class Homepage extends React.Component {
           <div className="container">
             <div className="row">
               <div className="col-lg-12 col-xs-12 p-0 flex-content-center">
-              <div className="browser-container hidden-xs text-center">
+                <div className="browser-container hidden-xs text-center">
                   <img src="/assets/images/elements/querydb-logo.png" />
-                  <br/>
-                  <br/>
-                  <br/>
+                  <br />
+                  <br />
+                  <br />
                 </div>
               </div>
-              
+
             </div>
           </div>
         </section>
@@ -74,9 +73,9 @@ class Homepage extends React.Component {
                       src="/assets/images/elements/icon-db.png"
                     />
                     <div className="card-body">
-                      <h5 className="card-title">Connect Any Data Sources</h5>
+                      <h5 className="card-title">Connect Relational Databases</h5>
                       <p className="card-text">
-                      You can connect to your SQL and NoSQL databases securely, we are constantly adding new supports to databases
+                        You can connect to your relational databases securely, we are constantly adding new supports to databases
                       </p>
                     </div>
                   </div>
@@ -89,10 +88,10 @@ class Homepage extends React.Component {
                     />
                     <div className="card-body">
                       <h5 className="card-title">
-                      Intelligent code editor
+                        Intelligent code editor
                       </h5>
                       <p className="card-text">
-                      Design your query with a smart editor that highlights syntax and helps you create queries quickly.
+                        Design your query with a smart editor that highlights syntax and helps you create queries quickly.
                       </p>
                     </div>
                   </div>
@@ -105,10 +104,10 @@ class Homepage extends React.Component {
                     />
                     <div className="card-body">
                       <h5 className="card-title">
-                      Query parse expressión
+                        Query parse expressión
                       </h5>
                       <p className="card-text">
-                      Build dynamic queries with the help of expression language for a transparent and efficient filter
+                        Build dynamic queries with the help of expression language for a transparent and efficient filter
                       </p>
                     </div>
                   </div>
@@ -118,7 +117,7 @@ class Homepage extends React.Component {
             <br />
             <div className="row">
               <div className="col-lg-12 col-xs-12 p-0 flex-content-center">
-              <div className="col-xs-12 col-sm-6 col-md-4">
+                <div className="col-xs-12 col-sm-6 col-md-4">
                   <div className="card-content">
                     <img
                       className="card-img-top"
@@ -126,10 +125,10 @@ class Homepage extends React.Component {
                     />
                     <div className="card-body">
                       <h5 className="card-title">
-                      Plugable Datasources
+                        Plugable Datasources
                       </h5>
                       <p className="card-text">
-                      Supports many databases, you can extend to your own database.
+                        Supports relational databases, you can extend to your own database.
                       </p>
                     </div>
                   </div>
@@ -142,14 +141,15 @@ class Homepage extends React.Component {
                     />
                     <div className="card-body">
                       <h5 className="card-title">
-                      Export Any format
+                        Export Data
                       </h5>
                       <p className="card-text">
-                      Export your data to many formats, JSON, XML and others.
+                        Export your data to JSON.
                       </p>
                     </div>
                   </div>
                 </div>
+                {/*
                 <div className="col-xs-12 col-sm-6 col-md-4">
                   <div className="card-content">
                     <img
@@ -166,6 +166,7 @@ class Homepage extends React.Component {
                     </div>
                   </div>
                 </div>
+                */}
               </div>
             </div>
             <br />

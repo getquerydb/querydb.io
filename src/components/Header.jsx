@@ -76,10 +76,25 @@ class Header extends React.Component {
                   to="https://demo.querydb.io/"
                   className="btn btn-primary navbar-btn"
                 >
+                  Get Started
+                </Link>
+              </li>
+            </ul>
+            {/*
+            <ul className="nav navbar-nav navbar-right">
+              <li>
+                <Link
+                  data-track
+                  data-track-location="header"
+                  track-event="Clicked Get Started"
+                  to="https://demo.querydb.io/"
+                  className="btn btn-primary navbar-btn"
+                >
                   Demo
                 </Link>
               </li>
             </ul>
+            */}
           </div>
         </div>
       </nav>

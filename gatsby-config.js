@@ -1,7 +1,7 @@
 const config = {
   siteMetadata: {
     title: 'QueryDB',
-    description: 'Connect any data source and export to any format',
+    description: 'Connect to Relational Database and export in API REST',
     siteUrl: 'https://querydb.io',
   },
   pathPrefix: '/',
